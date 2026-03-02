@@ -1,4 +1,7 @@
 const SYSTEM_CONFIG = {
-  SYSTEM_NAME: "BNAK Performance",
-  CURRENT_YEAR: 2026
+  systemName: "BNAK Performance System",
+  branchName: "BNAK",
+  year: 2026,
+  month: "มกราคม",
+  reportTitle: "รายงานวิเคราะห์ตัวชี้วัดประจำเดือน"
 };
