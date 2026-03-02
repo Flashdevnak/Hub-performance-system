@@ -1,12 +1,18 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
 }
 
 .sidebar {
-  width: 200px;
+  width: 220px;
   background: #f4f4f4;
   height: 100vh;
-  float: left;
-  padding: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
 }
