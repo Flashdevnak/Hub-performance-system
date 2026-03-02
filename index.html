@@ -1,27 +1,11 @@
 <!DOCTYPE html>
-<html lang="th">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <title>BNAK Performance System</title>
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <meta charset="UTF-8">
+  <script>
+    window.location.href = "/pages/dashboard.html";
+  </script>
 </head>
 <body>
-
-<div id="sidebar-container"></div>
-
-<div style="padding:20px;">
-  <h1>Dashboard</h1>
-  <p>ระบบพร้อมย้ายขึ้น Cloud</p>
-</div>
-
-<script src="/assets/js/config.js"></script>
-<script>
-fetch("/components/sidebar.html")
-  .then(res => res.text())
-  .then(data => {
-    document.getElementById("sidebar-container").innerHTML = data;
-  });
-</script>
-
 </body>
 </html>
