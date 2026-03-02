@@ -1,0 +1,4 @@
+const SYSTEM_CONFIG = {
+  SYSTEM_NAME: "BNAK Performance",
+  CURRENT_YEAR: 2026
+};
